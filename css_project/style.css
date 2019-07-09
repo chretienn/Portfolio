@@ -35,32 +35,27 @@ header {
 
 nav ul {
   position: fixed;
-  z-index:10;
   margin: 0px;
-  padding: 5px 0px 5px 635px;
+  padding: 1px 0px 5px 610px;
 }
 
 nav li {
   display: inline;
-  z-index:10;
   margin-right: 40px;
 }
 
 nav li a {
   color: #ffffff;
-  z-index:10;
 }
 
 nav li a:hover, nav li a.current {
   color: #C4C4C4;
   text-decoration: underline;
-  z-index:10;
 }
 
 a {
   color: #FFFFFF;
   text-decoration: none;
-  z-index:10;
 }
 
 .wrapper {
@@ -84,7 +79,7 @@ a {
 .wrap {
   width: 720px;
   float: left;
-  padding: 1px 3px 5px 464px;
+  padding: 50px 3px 40px 464px;
   margin: 1px;
 }
 
@@ -97,14 +92,14 @@ a {
 .wrsp {
   width: 720px;
   float: left;
-  padding: 1px 3px 5px 420px;
+  padding: 30px 3px 50px 420px;
   margin: 1px;
 }
 
 .wrsp2 {
   width: 720px;
   float: left;
-  padding: 1px 3px 5px 20px;
+  padding: 30px 3px 40px 20px;
   margin: 1px;
 }
 
@@ -130,4 +125,52 @@ a {
 .wrapps3 {
   display: block;
   margin-left: 140px;
+}
+
+.column10, .column20, .column30, .column40 {
+  text-align: center;
+  width: 260px;
+  float: left;
+  margin: 20px;
+  height: 300px;
+}
+
+.wrap2 {
+  width: 600px;
+  float: left;
+  padding: 80px 3px 50px 10px;
+  margin: 10px;
+}
+
+.wrsp69 {
+  width: 720px;
+  float: left;
+  padding: 10px 300px 50px 130px;
+  margin: 1px;
+}
+
+.wrsp69 h1 {
+  font-family: Yellowtail;
+  color: #FFA658;
+  font-size: 49px;
+  font-style: normal;
+}
+
+.wrsp69 h2 {
+  font-family: "Open Sans";
+  color: #CF6F6F;
+  font-size: 26px;
+  font-style: normal;
+}
+
+.corn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 37%;
+}
+
+.nope {
+  width: 400px;
+  margin-left:190px;
 }
