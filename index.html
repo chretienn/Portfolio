@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-    <link rel='stylesheet' href='css_project/style.css'/>
+    <link rel='stylesheet' href='css_project/style.css' />
     <link href="/packages/BurgerSqueeze/dist/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira:500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="css_project/java.js"></script>
     <title>Test</title>
-  </head>
+
+</head>
   <body>
   <img src='images/cd.png'/>
   <div class="burger burger-squeeze">
@@ -47,34 +51,74 @@
       <img src='images/vibecrate-small.png'/>
     </picture>
 
-    <picture>
-      <source media='(min-width: 401px)'
-              srcset='images/busybus.png'/>
-      <source media='(max-width: 400px)'
-              srcset='images/busybus-small.png'/>
-      <img src='images/busybus-small.png'/>
-    </picture>
-
-    <picture>
-      <source media='(min-width: 401px)'
-              srcset='images/blocjams.png'/>
-      <source media='(max-width: 400px)'
-              srcset='images/blocjams-small.png'/>
-      <img src='images/blocjams-small.png'/>
-    </picture>
-</div>
-</div>
-
-  <div class='photo'>
-  <div class='footer'>
-        <a href="https://www.github.com/chretienn"><img src="images/github.png" />
-        <a href="https://www.linkedin.com/in/christian-domingo/"><img src="images/linkedin.png" />
-        <a href="https://www.instagram.com/christiandomingo"><img src="images/instagram.png" />
-        <a href="https://www.twitter.com/christianemesis"><img src="images/twitter.png" />
+<body>
+    <div class="topnav">
+        <a href="#home" class="active"><img src='images/cd.png'/></a>
+        <div id="myLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project1.html">About</a></li>
+                <li><a href="project3.html">Contact</a> </li>
+            </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
     </div>
-  </div>
+    </div>
+    <div class='section header'>
+        <center>
+            <h1>Hi, I'm Christian</h1>
+        </center>
+    </div>
+    <div class='sign up'>
+        <center>
+            <h3>I’m a UI/UX Designer from the San Francisco Bay Area and I’m available for work.</h3>
+        </center>
+    </div>
+    <div class='section content'>
+        <div class='photo1'>
+            <a href="project2.html">
+                <picture>
+                    <source media='(min-width: 401px)' srcset='images/pl.png' />
+                    <source media='(max-width: 400px)' srcset='images/pl-small.png' />
+                    <img src='images/vibecrate-small.png' />
+                </picture>
+            </a>
+            <a href="https://github.com/chretienn/Busy_Bus">
+                <picture>
+                    <source media='(min-width: 401px)' srcset='images/busybus.png' />
+                    <source media='(max-width: 400px)' srcset='images/busybus-small.png' />
+                    <img src='images/busybus-small.png' />
+                </picture>
+            </a>
+            <a href="https://christiandomingo-bloc-jams.netlify.com/">
+                <picture>
+                    <source media='(min-width: 401px)' srcset='images/blocjams.png' />
+                    <source media='(max-width: 400px)' srcset='images/blocjams-small.png' />
+                    <img src='images/blocjams-small.png' />
+                </picture>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="social">
+            <a href="https://www.github.com/chretienn"><img src="images/github.png" /></a>
+        </div>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/christian-domingo/"><img src="images/linkedin.png" /></a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/christiandomingo"><img src="images/instagram.png" /></a>
+        </div>
+        <div class="social">
+            <a href="https://www.twitter.com/christianemesis"><img src="images/twitter.png" /></a>
+        </div>
+    </div>
     <center>
-    <h6>© Designed and Developed by Christian Domingo</h6>
-  </center>
-  </body>
+        <h6>© Designed and Developed by Christian Domingo</h6>
+    </center>
+</body>
+
 </html>
