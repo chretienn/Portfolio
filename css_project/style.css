@@ -26,17 +26,13 @@
          margin-left: auto;
          margin-right: auto;
     }
-     .row::after {
-         content: "";
-         clear: both;
-         display: table;
-    }
-     .social {
-         float: left;
-         width: 13.33%;
-         padding: 45px;
-    }
     /*For Case Study Mobile Page */
+    .column2 {
+        float: left;
+        width: 300px;
+        margin: 55px;
+        line-height: 2;
+   }
      .button {
          display: flex;
          flex-direction: column;
@@ -46,33 +42,7 @@
          padding: 12px 10px;
          border-radius: 12px;
     }
-     .type h1 {
-         font-family: 'Yellowtail', cursive;
-         font-size: 50px;
-         color: #FFA658;
-    }
-     .type h2 {
-         font-family: 'Open Sans', sans-serif;
-         font-size: 24px;
-         color: #CF6F6F;
-    }
     /* For all Mobile Screens */
-     p {
-         font-size: 18px;
-    }
-     .footer img {
-         height: 35px;
-    }
-     .footer {
-         display: flex;
-         justify-content: space-around;
-         flex-direction: row-reverse;
-         height: 100px;
-         align-items: center;
-    }
-     .burger {
-         float: right;
-    }
      nav {
          display: none;
     }
@@ -112,42 +82,169 @@
      .active {
          color: white;
     }
+    .social {
+      display: inline-block;
+      vertical-align: middle;
+      margin:0 1em;
+   }
+    .row {
+      text-align: center;
+      padding: 250px 0px 20px 0px;
+   }
 }
-/* Tablet Styles */
- @media only screen and (min-width: 401px) and (max-width: 960px) {
-     .sign-up, .feature-1, .feature-2, .feature-3 {
-         width: 50%;
-    }
+/* Tablet Styles*/
+ @media only screen and (min-width: 803px) and (max-width: 960px) {
+
+/* Tablet for About Screen */
+  .column {
+  line-height: 34px;
+  height:75px;
+  width: 700px;
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 0px 0px 260px;
 }
-/* Desktop Styles */
+/*Tablet Styles for Case Study Screen */
+  .column2 {
+  line-height: 40px;
+  height: 75px;
+  width: 100px;
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 0px 0px 55px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    color: black;
+    font-size: 12px;
+    padding: 12px 10px;
+    border-radius: 12px;
+}
+
+/*Tablet Styles for ALL Screens */
+   .icon {
+     display: none;
+   }
+   .social {
+     display: inline-block;
+     vertical-align: middle;
+     margin:0 1em;
+  }
+   .row {
+     text-align: center;
+     padding: 250px 0px 20px 0px;
+  }
+ header {
+     height: 200px;
+     position: fixed;
+}
+ .topnav ul {
+      z-index: 9999;
+     background-color: #373535;
+     position: fixed;
+     display: block;
+     padding: 14px 16px;
+     top: 0;
+     left: 318.76px;
+     float: left;
+}
+ .topnav li {
+     display: inline;
+     margin-right: 40px;
+}
+ .topnav li a {
+     color: #ffffff;
+}
+ .topnav li a:hover, .topnav li a.current {
+     color: #C4C4C4;
+     text-decoration: none;
+}
+ .topnav a {
+     color: #FFFFFF;
+     text-decoration: none;
+   }
+   .social {
+     display: inline-block;
+     vertical-align: middle;
+     margin:0 1em;
+  }
+   .row {
+     text-align: center;
+     padding: 250px 0px 20px 0px;
+  }
+}
+
+/*Desktop Styles */
  @media only screen and (min-width: 961px) {
-     .page {
-         width: 960px;
-         margin: 0 auto;
-    }
+/* Desktop Case Study Page */
+  .column3 {
+    width: 800px;
+    margin: 20px;
+    float: left;
+  }
+  .wrap {
+  width: 900px;
+  padding: 10px 0px 0px 1px;
+  margin: 10px;
+  display: flex;
+  }
+  .column4 {
+    width: 400px;
+    margin: 60px;
+    float: left;
+  }
+  .wrap2 {
+  width: 900px;
+  padding: 1px 0px 0px 10px;
+  margin: 1px;
+  display: flex;
+  }
+  .column2 {
+    line-height: 40px;
+    height: 75px;
+    width: 100px;
+    margin: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px 0px 0px 400px;
+  }
+  .column5 {
+    width: 220px;
+    margin: 10px;
+    float: left;
+  }
+  .wraps {
+  width: 900px;
+  padding: 10px 0px 0px 100px;
+  margin: 1px;
+  display: flex;
+  }
+  
+  .button {
+      display: flex;
+      flex-direction: column;
+      background-color: #e7e7e7;
+      color: black;
+      font-size: 12px;
+      padding: 12px 10px;
+      border-radius: 12px;
+  }
+  /*Desktop ALL Styles */
      .header {
          height: 300px;
     }
      .icon {
          display: none;
     }
-     .photo1 {
+     .photo2 {
          height: 460px;
          border: 25px solid #373535;
          display: flex;
          flex-direction: row;
-    }
-     .footer img {
-         height: 60px;
-         padding: 13px;
-    }
-     .footer {
-         display: flex;
-         justify-content: center;
-         flex-direction: row-reverse;
-         flex: 2;
-         height: 400px;
-         align-items: center;
     }
      header {
          height: 200px;
@@ -179,10 +276,47 @@
          color: #FFFFFF;
          text-decoration: none;
     }
+    .social {
+      display: inline-block;
+      vertical-align: middle;
+      margin:0 1em;
+   }
+    .row {
+      text-align: center;
+      padding: 250px 0px 20px 0px;
+   }
+/* Desktop About Screen */
+  .column {
+  line-height: 34px;
+  height:45px;
+  width: 1200px;
+  margin: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1px 0px 0px 460px;
+  }
+.photo2 {
+    height: 350px;
+  }
 }
+/* ALL FORMATS */
+p {
+    font-size: 18px;
+  }
+
  h1, h2, h3 {
      font-family: 'Saira', sans-serif;
      color: #FFFFFF;
+}
+.type h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: #FFA658;
+}
+.type h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #CF6F6F;
 }
  .page {
      display: flex;
@@ -206,48 +340,45 @@
 }
  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
  form {
-     max-width:420px;
-     margin:50px auto;
+     max-width: 420px;
+     margin: 60px auto;
 }
  .feedback-input {
-     color:white;
-     font-family: Helvetica, Arial, sans-serif;
-     font-weight:500;
-     font-size: 18px;
-     border-radius: 5px;
-     line-height: 22px;
-     border:1px solid #E5E5E5;
-     transition: all 0.3s;
-     padding: 13px;
-     margin-bottom: 15px;
-     width:90%;
-     box-sizing: border-box;
-     outline:0;
+        width: 100%;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid;
+        padding: 1em 0 .8em;
+        text-align: center;
+        font-size: 18px;
+        font-family: inherit;
+        font-weight: 300;
+        line-height: 1.5;
+        color: inherit;
+        outline: none;
 }
  .feedback-input:focus {
      border:2px solid #FFFFFF;
 }
  textarea {
-     height: 150px;
+     height: 200px;
      line-height: 150%;
      resize:vertical;
 }
  [type="submit"] {
-     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-     width: 90%;
+     width: 35%;
      background:#CC6666;
      border-radius:5px;
      border:0;
      cursor:pointer;
      color:white;
      font-size:24px;
-     padding-top:10px;
-     padding-bottom:10px;
+     padding-top:5px;
+     padding-bottom:5px;
      transition: all 0.3s;
-     margin-top:-4px;
+     margin-top: 30px;
      font-weight:700;
 }
  [type="submit"]:hover {
      background:#CC4949;
 }
- 
