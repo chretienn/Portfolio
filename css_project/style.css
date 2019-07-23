@@ -180,6 +180,13 @@
 
 /*Desktop Styles */
  @media only screen and (min-width: 961px) {
+
+/* Desktop Homepage Styles */
+
+  .section img {
+    margin: 20px;
+  }
+
 /* Desktop Case Study Page */
   .column3 {
     width: 800px;
@@ -187,10 +194,14 @@
     float: left;
   }
   .wrap {
-  width: 900px;
-  padding: 10px 0px 0px 1px;
-  margin: 10px;
+  width: 800px;
+  padding: 10px 20px 10px 0px;
+  margin: 1px;
   display: flex;
+  }
+  .column7 {
+    width: 800px;
+    margin: 0px;
   }
   .column4 {
     width: 400px;
@@ -223,7 +234,7 @@
   margin: 1px;
   display: flex;
   }
-  
+
   .button {
       display: flex;
       flex-direction: column;
@@ -295,8 +306,14 @@
   vertical-align: middle;
   padding: 1px 0px 0px 460px;
   }
-.photo2 {
-    height: 350px;
+.photo3 {
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+    border: 25px;
+    display: flex;
+    flex-direction: row;
+}
   }
 }
 /* ALL FORMATS */
@@ -304,10 +321,25 @@ p {
     font-size: 18px;
   }
 
- h1, h2, h3 {
+ h1, h2 {
      font-family: 'Saira', sans-serif;
      color: #FFFFFF;
+       font-size: 28px;
 }
+h2 {
+    font-family: 'Saira', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+h3 {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
 .type h1 {
     font-family: 'Yellowtail', cursive;
     font-size: 50px;
@@ -336,7 +368,7 @@ p {
      height: 140px;
 }
  .content {
-     height: 500px;
+     height: 600px;
 }
  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
  form {
