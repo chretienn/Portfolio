@@ -42,18 +42,6 @@
          padding: 12px 10px;
          border-radius: 12px;
     }
-    .column5 {
-      width: 140px;
-      margin: 16px;
-      float: right;
-      display: flex;
-      flex-direction: column;
-    }
-    .wraps {
-    width: 250px;
-    padding: 10px 40px 0px 0px;
-    margin: 1px;
-    }
     /* For all Mobile Screens */
      nav {
          display: none;
@@ -105,7 +93,7 @@
    }
 }
 /* Tablet Styles*/
- @media only screen and (min-width: 768px) and (max-width: 960px) {
+ @media only screen and (min-width: 803px) and (max-width: 960px) {
 
 /* Tablet for About Screen */
   .column {
@@ -136,17 +124,7 @@
     padding: 12px 10px;
     border-radius: 12px;
 }
-  .wrap {
-    width: 800px;
-    padding: 10px 20px 10px 0px;
-    margin: 1px;
-    display: flex;
-  }
-  .column5 {
-    width: 220px;
-    margin: 20px;
-    float: left;
-  }
+
 /*Tablet Styles for ALL Screens */
    .icon {
      display: none;
