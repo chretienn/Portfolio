@@ -7,12 +7,13 @@
      color: #E5E5E5;
 }
 /* For Homepage Mobile Screen */
- @media only screen and (max-width: 400px) { 
-     .content img {
+ @media only screen and (max-width: 400px) {
+     .content {
          height: 120px;
          border: 5px solid #373535;
          display: flex;
          justify-content: space-around;
+         flex-direction: column;
     }
     /* For About Mobile Screen */
      .column {
@@ -26,6 +27,18 @@
          margin-left: auto;
          margin-right: auto;
     }
+    .wraps {
+    width: 190px;
+    padding: 20px 0px 0px 50px;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    }
+    .column5 {
+      width: 140px;
+      margin: 10px;
+      float: left;
+    }
     /*For Case Study Mobile Page */
     .column2 {
         float: left;
@@ -36,7 +49,7 @@
      .button {
          display: flex;
          flex-direction: column;
-         background-color: #e7e7e7;
+         background-color: #E7E7E7;
          color: black;
          font-size: 12px;
          padding: 12px 10px;
@@ -93,7 +106,7 @@
    }
 }
 /* Tablet Styles*/
- @media only screen and (min-width: 803px) and (max-width: 960px) {
+ @media only screen and (min-width: 761px) and (max-width: 960px) {
 
 /* Tablet for About Screen */
   .column {
@@ -141,11 +154,11 @@
  header {
      height: 200px;
      position: fixed;
-}
+   }
  .topnav ul {
       z-index: 9999;
      background-color: #373535;
-     position: fixed;
+     position: absolute;
      display: block;
      padding: 14px 16px;
      top: 0;
@@ -188,40 +201,58 @@
   }
 
 /* Desktop Case Study Page */
+  .topphoto {
+    padding-left: 105px;
+  }
+.column33 {
+  width: 200px;
+  margin: 5px;
+}
   .column3 {
-    width: 800px;
-    margin: 20px;
-    float: left;
+    width: 250px;
+    margin: 1px;
   }
   .wrap {
-  width: 800px;
-  padding: 10px 20px 10px 0px;
-  margin: 1px;
+    margin: 0px;
+    display: flex;
+    padding: 5px 0px 0px 1px;
+  }
+  .wrap1 {
+  width: 700px;
+  padding: 1px 1px 1px 20px;
+  margin: 0px;
   display: flex;
+  flex-direction: row;
   }
   .column7 {
-    width: 800px;
+    width: 300px;
     margin: 0px;
+    padding-right: 10px;
   }
   .column4 {
     width: 400px;
-    margin: 60px;
+    margin: 10px;
     float: left;
   }
   .wrap2 {
-  width: 900px;
-  padding: 1px 0px 0px 10px;
+  width: 700px;
+  padding: 1px 0px 0px 1px;
   margin: 1px;
   display: flex;
   }
   .column2 {
-    line-height: 40px;
+    line-height: 48px;
     height: 75px;
-    width: 100px;
     margin: 0px;
     display: table-cell;
     vertical-align: middle;
     padding: 20px 0px 0px 400px;
+  }
+  .column2 p {
+    width: 600px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 30px 10px 20px;
   }
   .column5 {
     width: 220px;
@@ -229,13 +260,17 @@
     float: left;
   }
   .wraps {
-  width: 900px;
-  padding: 10px 0px 0px 100px;
-  margin: 1px;
+  width: 300px;
+  padding: 10px 0px 0px 20px;
+  margin: 0px;
   display: flex;
   }
 
   .button {
+      display: none;
+    }
+
+  .column5 button {
       display: flex;
       flex-direction: column;
       background-color: #e7e7e7;
@@ -265,16 +300,17 @@
          list-style-type: none;
          overflow: hidden;
          background-color: #373535;
-         position: fixed;
+         position: absolute;
          display: block;
          padding: 14px 16px;
          top: 0;
-         left: 700.76px;
+         left: 610.76px;
          float: left;
     }
      .topnav li {
          display: inline;
-         margin-right: 40px;
+         margin-right: 50px;
+         padding-top: 20px;
     }
      .topnav li a {
          color: #ffffff;
@@ -288,13 +324,16 @@
          text-decoration: none;
     }
     .social {
-      display: inline-block;
+      line-height: 0px;
+      height: 75px;
+      width: 10px;
+      display: table-cell;
       vertical-align: middle;
-      margin:0 1em;
+      padding: 1px 0px 0px 60px;
    }
     .row {
       text-align: center;
-      padding: 250px 0px 20px 0px;
+      padding: 10px 0px 5px 500px;
    }
 /* Desktop About Screen */
   .column {
@@ -313,7 +352,6 @@
     border: 25px;
     display: flex;
     flex-direction: row;
-}
   }
 }
 /* ALL FORMATS */
@@ -399,11 +437,11 @@ h3 {
 }
  [type="submit"] {
      width: 35%;
-     background:#CC6666;
+     background:#E7E7E7;
      border-radius:5px;
      border:0;
      cursor:pointer;
-     color:white;
+     color: black;
      font-size:24px;
      padding-top:5px;
      padding-bottom:5px;
@@ -412,5 +450,6 @@ h3 {
      font-weight:700;
 }
  [type="submit"]:hover {
-     background:#CC4949;
+     background:#000000;
+     color: white;
 }
