@@ -55,18 +55,6 @@
          padding: 12px 10px;
          border-radius: 12px;
     }
-    .column5 {
-      width: 140px;
-      margin: 16px;
-      float: right;
-      display: flex;
-      flex-direction: column;
-    }
-    .wraps {
-    width: 250px;
-    padding: 10px 40px 0px 0px;
-    margin: 1px;
-    }
     /* For all Mobile Screens */
      nav {
          display: none;
@@ -114,11 +102,10 @@
    }
     .row {
       text-align: center;
-      padding: 250px 0px 20px 0px;
+      padding: 120px 0px 20px 0px;
    }
 }
 /* Tablet Styles*/
- @media only screen and (min-width: 768px) and (max-width: 960px) {
  @media only screen and (min-width: 761px) and (max-width: 960px) {
 
 /* Tablet for About Screen */
@@ -150,17 +137,7 @@
     padding: 12px 10px;
     border-radius: 12px;
 }
-  .wrap {
-    width: 800px;
-    padding: 10px 20px 10px 0px;
-    margin: 1px;
-    display: flex;
-  }
-  .column5 {
-    width: 220px;
-    margin: 20px;
-    float: left;
-  }
+
 /*Tablet Styles for ALL Screens */
    .icon {
      display: none;
@@ -210,7 +187,7 @@
   }
    .row {
      text-align: center;
-     padding: 250px 0px 20px 0px;
+     padding: 200px 0px 20px 0px;
   }
 }
 
@@ -233,10 +210,10 @@
 }
   .column3 {
     width: 250px;
-    margin: 1px;
+    margin: 20px;
   }
   .wrap {
-    margin: 0px;
+    margin: 10px;
     display: flex;
     padding: 5px 0px 0px 1px;
   }
@@ -264,7 +241,7 @@
   display: flex;
   }
   .column2 {
-    line-height: 48px;
+    line-height: 40px;
     height: 75px;
     margin: 0px;
     display: table-cell;
@@ -294,14 +271,22 @@
     }
 
   .column5 button {
-      display: flex;
-      flex-direction: column;
+      display: block;
       background-color: #e7e7e7;
       color: black;
       font-size: 12px;
       padding: 12px 10px;
       border-radius: 12px;
   }
+  .photo11 button {
+      display: block;
+      background-color: #e7e7e7;
+      color: black;
+      font-size: 12px;
+      padding: 12px 10px;
+      border-radius: 12px;
+  }
+
   /*Desktop ALL Styles */
      .header {
          height: 300px;
@@ -327,7 +312,7 @@
          display: block;
          padding: 14px 16px;
          top: 0;
-         left: 610.76px;
+         left: 565.76px;
          float: left;
     }
      .topnav li {
@@ -347,16 +332,13 @@
          text-decoration: none;
     }
     .social {
-      line-height: 0px;
-      height: 75px;
-      width: 10px;
-      display: table-cell;
+      display: inline-block;
       vertical-align: middle;
-      padding: 1px 0px 0px 60px;
+      margin:0 1em;
    }
     .row {
       text-align: center;
-      padding: 10px 0px 5px 500px;
+      padding: 60px 0px 20px 0px;
    }
 /* Desktop About Screen */
   .column {
@@ -426,7 +408,7 @@ h3 {
      height: 30px;
 }
  .header {
-     height: 140px;
+     height: 180px;
 }
  .content {
      height: 600px;
